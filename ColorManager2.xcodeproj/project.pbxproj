@@ -12,6 +12,35 @@
 		897C838125E6D697005EEB26 /* ColorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897C837F25E6D697005EEB26 /* ColorDetailView.swift */; };
 		897C838725E6DB01005EEB26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897C838625E6DB01005EEB26 /* ContentView.swift */; };
 		897C839525E6E157005EEB26 /* AddColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897C839425E6E157005EEB26 /* AddColorView.swift */; };
+		897C839D25E6E4EA005EEB26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 897C839C25E6E4EA005EEB26 /* Assets.xcassets */; };
+		897C83A425E6E4EA005EEB26 /* ColorManager2Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 897C83A325E6E4EA005EEB26 /* ColorManager2Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		897C83AB25E6E4EA005EEB26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897C83AA25E6E4EA005EEB26 /* ContentView.swift */; };
+		897C83AD25E6E4EA005EEB26 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897C83AC25E6E4EA005EEB26 /* NotificationController.swift */; };
+		897C83AF25E6E4EA005EEB26 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897C83AE25E6E4EA005EEB26 /* NotificationView.swift */; };
+		897C83B125E6E4EA005EEB26 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897C83B025E6E4EA005EEB26 /* ComplicationController.swift */; };
+		897C83B325E6E4EC005EEB26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 897C83B225E6E4EC005EEB26 /* Assets.xcassets */; };
+		897C83B625E6E4EC005EEB26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 897C83B525E6E4EC005EEB26 /* Preview Assets.xcassets */; };
+		897C83BB25E6E4EC005EEB26 /* ColorManager2Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 897C839A25E6E4E6005EEB26 /* ColorManager2Watch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		897C83CC25E6E57B005EEB26 /* ColorManager2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A269D125E6BBC700378296 /* ColorManager2App.swift */; };
+		897C83D125E6E588005EEB26 /* ColorModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A26A0025E6C10800378296 /* ColorModelData.swift */; };
+		897C83D625E6E58B005EEB26 /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A269F625E6BC6500378296 /* ColorModel.swift */; };
+		897C83DB25E6E58E005EEB26 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A26A1B25E6C4E400378296 /* ViewExtensions.swift */; };
+		897C83E025E6E591005EEB26 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A26A1425E6C4CC00378296 /* ColorExtensions.swift */; };
+		897C83EE25E6E60A005EEB26 /* ColorData.json in Resources */ = {isa = PBXBuildFile; fileRef = 89A269FB25E6C08F00378296 /* ColorData.json */; };
+		897C83F825E6E636005EEB26 /* ColorListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A26A0C25E6C42000378296 /* ColorListRowView.swift */; };
+		897C83FE25E6E651005EEB26 /* ColorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897C83FD25E6E651005EEB26 /* ColorDetailView.swift */; };
+		897C840825E6E6BA005EEB26 /* ColorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897C840725E6E6BA005EEB26 /* ColorListView.swift */; };
+		897C841A25E6EBB1005EEB26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897C841925E6EBB1005EEB26 /* ContentView.swift */; };
+		897C841C25E6EBB4005EEB26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 897C841B25E6EBB4005EEB26 /* Assets.xcassets */; };
+		897C841F25E6EBB4005EEB26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 897C841E25E6EBB4005EEB26 /* Preview Assets.xcassets */; };
+		897C842A25E6EBCB005EEB26 /* ColorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897C842925E6EBCB005EEB26 /* ColorListView.swift */; };
+		897C843025E6EC19005EEB26 /* ColorModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A26A0025E6C10800378296 /* ColorModelData.swift */; };
+		897C843625E6EC1C005EEB26 /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A269F625E6BC6500378296 /* ColorModel.swift */; };
+		897C843C25E6EC1E005EEB26 /* ColorData.json in Resources */ = {isa = PBXBuildFile; fileRef = 89A269FB25E6C08F00378296 /* ColorData.json */; };
+		897C844225E6EC28005EEB26 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A26A1B25E6C4E400378296 /* ViewExtensions.swift */; };
+		897C844825E6EC2A005EEB26 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A26A1425E6C4CC00378296 /* ColorExtensions.swift */; };
+		897C844F25E6EC55005EEB26 /* ColorBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897C844E25E6EC55005EEB26 /* ColorBoxView.swift */; };
+		897C845A25E6ECD2005EEB26 /* ColorManager2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A269D125E6BBC700378296 /* ColorManager2App.swift */; };
 		89A269E425E6BBC900378296 /* ColorManager2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A269D125E6BBC700378296 /* ColorManager2App.swift */; };
 		89A269E525E6BBC900378296 /* ColorManager2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A269D125E6BBC700378296 /* ColorManager2App.swift */; };
 		89A269E625E6BBC900378296 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A269D225E6BBC700378296 /* ContentView.swift */; };
@@ -33,11 +62,76 @@
 		89A26A1D25E6C4E400378296 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A26A1B25E6C4E400378296 /* ViewExtensions.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		897C83A525E6E4EA005EEB26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89A269CC25E6BBC700378296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 897C83A225E6E4EA005EEB26;
+			remoteInfo = "ColorManager2Watch Extension";
+		};
+		897C83B925E6E4EC005EEB26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89A269CC25E6BBC700378296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 897C839925E6E4E6005EEB26;
+			remoteInfo = ColorManager2Watch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		897C83BF25E6E4EC005EEB26 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				897C83A425E6E4EA005EEB26 /* ColorManager2Watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		897C83C325E6E4EC005EEB26 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				897C83BB25E6E4EC005EEB26 /* ColorManager2Watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		897C837A25E6CDE7005EEB26 /* AddColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddColorView.swift; sourceTree = "<group>"; };
 		897C837F25E6D697005EEB26 /* ColorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailView.swift; sourceTree = "<group>"; };
 		897C838625E6DB01005EEB26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		897C839425E6E157005EEB26 /* AddColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddColorView.swift; sourceTree = "<group>"; };
+		897C839A25E6E4E6005EEB26 /* ColorManager2Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorManager2Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		897C839C25E6E4EA005EEB26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		897C839E25E6E4EA005EEB26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		897C83A325E6E4EA005EEB26 /* ColorManager2Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ColorManager2Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		897C83A825E6E4EA005EEB26 /* ColorManager2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager2App.swift; sourceTree = "<group>"; };
+		897C83AA25E6E4EA005EEB26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		897C83AC25E6E4EA005EEB26 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		897C83AE25E6E4EA005EEB26 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		897C83B025E6E4EA005EEB26 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		897C83B225E6E4EC005EEB26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		897C83B525E6E4EC005EEB26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		897C83B725E6E4EC005EEB26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		897C83B825E6E4EC005EEB26 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		897C83FD25E6E651005EEB26 /* ColorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailView.swift; sourceTree = "<group>"; };
+		897C840725E6E6BA005EEB26 /* ColorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorListView.swift; sourceTree = "<group>"; };
+		897C841525E6EBB1005EEB26 /* ColorManager2TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorManager2TV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		897C841725E6EBB1005EEB26 /* ColorManager2TVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager2TVApp.swift; sourceTree = "<group>"; };
+		897C841925E6EBB1005EEB26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		897C841B25E6EBB4005EEB26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		897C841E25E6EBB4005EEB26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		897C842025E6EBB4005EEB26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		897C842925E6EBCB005EEB26 /* ColorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorListView.swift; sourceTree = "<group>"; };
+		897C844E25E6EC55005EEB26 /* ColorBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBoxView.swift; sourceTree = "<group>"; };
 		89A269D125E6BBC700378296 /* ColorManager2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager2App.swift; sourceTree = "<group>"; };
 		89A269D225E6BBC700378296 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		89A269D325E6BBC900378296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,6 +150,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		897C83A025E6E4EA005EEB26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		897C841225E6EBB1005EEB26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		89A269D525E6BBC900378296 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -73,12 +181,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		897C839B25E6E4E7005EEB26 /* ColorManager2Watch */ = {
+			isa = PBXGroup;
+			children = (
+				897C839C25E6E4EA005EEB26 /* Assets.xcassets */,
+				897C839E25E6E4EA005EEB26 /* Info.plist */,
+			);
+			path = ColorManager2Watch;
+			sourceTree = "<group>";
+		};
+		897C83A725E6E4EA005EEB26 /* ColorManager2Watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				897C83A825E6E4EA005EEB26 /* ColorManager2App.swift */,
+				897C83AA25E6E4EA005EEB26 /* ContentView.swift */,
+				897C840725E6E6BA005EEB26 /* ColorListView.swift */,
+				897C83FD25E6E651005EEB26 /* ColorDetailView.swift */,
+				897C83AC25E6E4EA005EEB26 /* NotificationController.swift */,
+				897C83AE25E6E4EA005EEB26 /* NotificationView.swift */,
+				897C83B025E6E4EA005EEB26 /* ComplicationController.swift */,
+				897C83B225E6E4EC005EEB26 /* Assets.xcassets */,
+				897C83B725E6E4EC005EEB26 /* Info.plist */,
+				897C83B825E6E4EC005EEB26 /* PushNotificationPayload.apns */,
+				897C83B425E6E4EC005EEB26 /* Preview Content */,
+			);
+			path = "ColorManager2Watch Extension";
+			sourceTree = "<group>";
+		};
+		897C83B425E6E4EC005EEB26 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				897C83B525E6E4EC005EEB26 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		897C841625E6EBB1005EEB26 /* ColorManager2TV */ = {
+			isa = PBXGroup;
+			children = (
+				897C841725E6EBB1005EEB26 /* ColorManager2TVApp.swift */,
+				897C842925E6EBCB005EEB26 /* ColorListView.swift */,
+				897C844E25E6EC55005EEB26 /* ColorBoxView.swift */,
+				897C841925E6EBB1005EEB26 /* ContentView.swift */,
+				897C841B25E6EBB4005EEB26 /* Assets.xcassets */,
+				897C842025E6EBB4005EEB26 /* Info.plist */,
+				897C841D25E6EBB4005EEB26 /* Preview Content */,
+			);
+			path = ColorManager2TV;
+			sourceTree = "<group>";
+		};
+		897C841D25E6EBB4005EEB26 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				897C841E25E6EBB4005EEB26 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		89A269CB25E6BBC700378296 = {
 			isa = PBXGroup;
 			children = (
 				89A269D025E6BBC700378296 /* Shared */,
 				89A269DA25E6BBC900378296 /* iOS */,
 				89A269E125E6BBC900378296 /* macOS */,
+				897C839B25E6E4E7005EEB26 /* ColorManager2Watch */,
+				897C83A725E6E4EA005EEB26 /* ColorManager2Watch Extension */,
+				897C841625E6EBB1005EEB26 /* ColorManager2TV */,
 				89A269D925E6BBC900378296 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,6 +270,9 @@
 			children = (
 				89A269D825E6BBC900378296 /* ColorManager2.app */,
 				89A269E025E6BBC900378296 /* ColorManager2.app */,
+				897C839A25E6E4E6005EEB26 /* ColorManager2Watch.app */,
+				897C83A325E6E4EA005EEB26 /* ColorManager2Watch Extension.appex */,
+				897C841525E6EBB1005EEB26 /* ColorManager2TV.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -165,6 +336,57 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		897C839925E6E4E6005EEB26 /* ColorManager2Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 897C83C025E6E4EC005EEB26 /* Build configuration list for PBXNativeTarget "ColorManager2Watch" */;
+			buildPhases = (
+				897C839825E6E4E6005EEB26 /* Resources */,
+				897C83BF25E6E4EC005EEB26 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				897C83A625E6E4EA005EEB26 /* PBXTargetDependency */,
+			);
+			name = ColorManager2Watch;
+			productName = ColorManager2Watch;
+			productReference = 897C839A25E6E4E6005EEB26 /* ColorManager2Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		897C83A225E6E4EA005EEB26 /* ColorManager2Watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 897C83BC25E6E4EC005EEB26 /* Build configuration list for PBXNativeTarget "ColorManager2Watch Extension" */;
+			buildPhases = (
+				897C839F25E6E4EA005EEB26 /* Sources */,
+				897C83A025E6E4EA005EEB26 /* Frameworks */,
+				897C83A125E6E4EA005EEB26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ColorManager2Watch Extension";
+			productName = "ColorManager2Watch Extension";
+			productReference = 897C83A325E6E4EA005EEB26 /* ColorManager2Watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		897C841425E6EBB1005EEB26 /* ColorManager2TV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 897C842125E6EBB4005EEB26 /* Build configuration list for PBXNativeTarget "ColorManager2TV" */;
+			buildPhases = (
+				897C841125E6EBB1005EEB26 /* Sources */,
+				897C841225E6EBB1005EEB26 /* Frameworks */,
+				897C841325E6EBB1005EEB26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorManager2TV;
+			productName = ColorManager2TV;
+			productReference = 897C841525E6EBB1005EEB26 /* ColorManager2TV.app */;
+			productType = "com.apple.product-type.application";
+		};
 		89A269D725E6BBC900378296 /* ColorManager2 (iOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89A269EC25E6BBC900378296 /* Build configuration list for PBXNativeTarget "ColorManager2 (iOS)" */;
@@ -172,10 +394,12 @@
 				89A269D425E6BBC900378296 /* Sources */,
 				89A269D525E6BBC900378296 /* Frameworks */,
 				89A269D625E6BBC900378296 /* Resources */,
+				897C83C325E6E4EC005EEB26 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				897C83BA25E6E4EC005EEB26 /* PBXTargetDependency */,
 			);
 			name = "ColorManager2 (iOS)";
 			productName = "ColorManager2 (iOS)";
@@ -208,6 +432,15 @@
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
+					897C839925E6E4E6005EEB26 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					897C83A225E6E4EA005EEB26 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					897C841425E6EBB1005EEB26 = {
+						CreatedOnToolsVersion = 12.3;
+					};
 					89A269D725E6BBC900378296 = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -231,11 +464,42 @@
 			targets = (
 				89A269D725E6BBC900378296 /* ColorManager2 (iOS) */,
 				89A269DF25E6BBC900378296 /* ColorManager2 (macOS) */,
+				897C839925E6E4E6005EEB26 /* ColorManager2Watch */,
+				897C83A225E6E4EA005EEB26 /* ColorManager2Watch Extension */,
+				897C841425E6EBB1005EEB26 /* ColorManager2TV */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		897C839825E6E4E6005EEB26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				897C839D25E6E4EA005EEB26 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		897C83A125E6E4EA005EEB26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				897C83B625E6E4EC005EEB26 /* Preview Assets.xcassets in Resources */,
+				897C83B325E6E4EC005EEB26 /* Assets.xcassets in Resources */,
+				897C83EE25E6E60A005EEB26 /* ColorData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		897C841325E6EBB1005EEB26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				897C841F25E6EBB4005EEB26 /* Preview Assets.xcassets in Resources */,
+				897C841C25E6EBB4005EEB26 /* Assets.xcassets in Resources */,
+				897C843C25E6EC1E005EEB26 /* ColorData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		89A269D625E6BBC900378296 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -257,6 +521,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		897C839F25E6E4EA005EEB26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				897C83AD25E6E4EA005EEB26 /* NotificationController.swift in Sources */,
+				897C83FE25E6E651005EEB26 /* ColorDetailView.swift in Sources */,
+				897C83D625E6E58B005EEB26 /* ColorModel.swift in Sources */,
+				897C83DB25E6E58E005EEB26 /* ViewExtensions.swift in Sources */,
+				897C83AB25E6E4EA005EEB26 /* ContentView.swift in Sources */,
+				897C83B125E6E4EA005EEB26 /* ComplicationController.swift in Sources */,
+				897C83E025E6E591005EEB26 /* ColorExtensions.swift in Sources */,
+				897C83D125E6E588005EEB26 /* ColorModelData.swift in Sources */,
+				897C840825E6E6BA005EEB26 /* ColorListView.swift in Sources */,
+				897C83F825E6E636005EEB26 /* ColorListRowView.swift in Sources */,
+				897C83CC25E6E57B005EEB26 /* ColorManager2App.swift in Sources */,
+				897C83AF25E6E4EA005EEB26 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		897C841125E6EBB1005EEB26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				897C844F25E6EC55005EEB26 /* ColorBoxView.swift in Sources */,
+				897C841A25E6EBB1005EEB26 /* ContentView.swift in Sources */,
+				897C843025E6EC19005EEB26 /* ColorModelData.swift in Sources */,
+				897C842A25E6EBCB005EEB26 /* ColorListView.swift in Sources */,
+				897C844225E6EC28005EEB26 /* ViewExtensions.swift in Sources */,
+				897C843625E6EC1C005EEB26 /* ColorModel.swift in Sources */,
+				897C845A25E6ECD2005EEB26 /* ColorManager2App.swift in Sources */,
+				897C844825E6EC2A005EEB26 /* ColorExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		89A269D425E6BBC900378296 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -293,7 +591,157 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		897C83A625E6E4EA005EEB26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 897C83A225E6E4EA005EEB26 /* ColorManager2Watch Extension */;
+			targetProxy = 897C83A525E6E4EA005EEB26 /* PBXContainerItemProxy */;
+		};
+		897C83BA25E6E4EC005EEB26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 897C839925E6E4E6005EEB26 /* ColorManager2Watch */;
+			targetProxy = 897C83B925E6E4EC005EEB26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		897C83BD25E6E4EC005EEB26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ColorManager2Watch Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = K9V6J4YS93;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "ColorManager2Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brk.ColorManager2.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		897C83BE25E6E4EC005EEB26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ColorManager2Watch Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = K9V6J4YS93;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "ColorManager2Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brk.ColorManager2.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		897C83C125E6E4EC005EEB26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9V6J4YS93;
+				IBSC_MODULE = ColorManager2Watch_Extension;
+				INFOPLIST_FILE = ColorManager2Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brk.ColorManager2.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		897C83C225E6E4EC005EEB26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9V6J4YS93;
+				IBSC_MODULE = ColorManager2Watch_Extension;
+				INFOPLIST_FILE = ColorManager2Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brk.ColorManager2.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		897C842225E6EBB4005EEB26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ColorManager2TV/Preview Content\"";
+				DEVELOPMENT_TEAM = K9V6J4YS93;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ColorManager2TV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brk.ColorManager2TV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.3;
+			};
+			name = Debug;
+		};
+		897C842325E6EBB4005EEB26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ColorManager2TV/Preview Content\"";
+				DEVELOPMENT_TEAM = K9V6J4YS93;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ColorManager2TV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brk.ColorManager2TV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.3;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		89A269EA25E6BBC900378296 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -501,6 +949,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		897C83BC25E6E4EC005EEB26 /* Build configuration list for PBXNativeTarget "ColorManager2Watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				897C83BD25E6E4EC005EEB26 /* Debug */,
+				897C83BE25E6E4EC005EEB26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		897C83C025E6E4EC005EEB26 /* Build configuration list for PBXNativeTarget "ColorManager2Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				897C83C125E6E4EC005EEB26 /* Debug */,
+				897C83C225E6E4EC005EEB26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		897C842125E6EBB4005EEB26 /* Build configuration list for PBXNativeTarget "ColorManager2TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				897C842225E6EBB4005EEB26 /* Debug */,
+				897C842325E6EBB4005EEB26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		89A269CF25E6BBC700378296 /* Build configuration list for PBXProject "ColorManager2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

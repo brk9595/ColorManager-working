@@ -13,6 +13,7 @@ struct ColorListView: View {
     @State private var showFav: Bool = false
     @State private var selection: ColorModel?
     @State private var presentAddColorSheet: Bool = false
+    
     var filteredColors: [ColorModel] {
         colorModelData.colors.filter {
             color in

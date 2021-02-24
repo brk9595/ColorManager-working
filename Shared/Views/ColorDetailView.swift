@@ -24,8 +24,11 @@ struct ColorDetailView: View {
                     Text(colorData.colorName)
                         .font(.largeTitle)
                         .bold()
+                        .foregroundColor(.white)
                     Spacer()
                     Text(colorData.colorHex)
+                        .foregroundColor(.white)
+                    
                 }
                 .padding(.all, 30)
             }
@@ -39,7 +42,7 @@ struct ColorDetailView: View {
                         .imageScale(.medium)
                 })
             }
-        }
+        }.ignoresSafeArea()
     }
 }
 

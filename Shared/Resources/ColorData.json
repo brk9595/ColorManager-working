@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "colorName": "Light Salmon",
+    "colorHex": "#FF9B71",
+    "isFav": true
+  },
+  {
+    "id": 1,
+    "colorName": "Ruby",
+    "colorHex": "#D81E5B",
+    "isFav": false
+  },
+  {
+    "id": 2,
+    "colorName": "Canary yellow",
+    "colorHex": "#FFFD98",
+    "isFav": true
+  },
+  {
+    "id": 3,
+    "colorName": "Prussian Blue",
+    "colorHex": "#23395B",
+    "isFav": true
+  },
+  {
+    "id": 4,
+    "colorName": "Dark Purple",
+    "colorHex": "#372549",
+    "isFav": false
+  }
+]

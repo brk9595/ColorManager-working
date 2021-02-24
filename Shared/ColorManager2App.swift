@@ -9,9 +9,19 @@ import SwiftUI
 
 @main
 struct ColorManager2App: App {
+    
+    @StateObject private var colorModelData = ColorModelData()
+    
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        let mainWindow = WindowGroup {
+            ContentView().environmentObject(colorModelData)
         }
+        
+        #if os(macOS)
+        mainWindow
+        #else
+        mainWindow
+        #endif
+        
     }
 }

@@ -17,36 +17,7 @@ struct AddColorView: View {
     @State private var showAlert: Bool = false
     
     var body: some View {
-        ZStack {
-            getBackGroundColor(color: hexColor)
-                .ignoresSafeArea()
-            ScrollView{
-                VStack(alignment: .center) {
-                    Spacer(minLength: 15)
-                    TextField("Enter the color name", text: $colorName)
-                        .padding(.horizontal)
-                        .frame(height: 46 )
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
-                    TextField("Enter the Color Code", text: $hexColor)
-                        .padding(.horizontal)
-                        .frame(height: 46 )
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
-                    Button(action: {
-                        if colorName.count > 0 && hexColor.count > 0 {
-                            colorData.colors.append(getColorModel(for: colorName, hexCode: hexColor))
-                            self.presentationMode.wrappedValue.dismiss()
-                        } else {
-                            self.showAlert = true
-                        }
-                    }, label: {
-                        Text("Submit")
-                    }).alert(isPresented: self.$showAlert, content: {
-                        presentAlert()
-                    })
-                    Spacer()
-                }
-            }
-        }.navigationTitle("Add Color")
+        EmptyView()
         
     }
     

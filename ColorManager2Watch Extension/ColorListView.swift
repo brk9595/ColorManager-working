@@ -19,20 +19,7 @@ struct ColorListView: View {
     }
     
     var body: some View {
-        NavigationView {
-            List {
-                Toggle(isOn: $showFav) {
-                    Text("Favorites only")
-                }
-                ForEach(filteredColors, id: \.id) { color in
-                    NavigationLink(destination: ColorDetailView(colorData: color)) {
-                        ColorListRowView(color: color)
-                    }
-                }
-            }.listStyle(CarouselListStyle())
-            .navigationTitle("Colors")
-            
-        }
+        EmptyView()
     }
 }
 

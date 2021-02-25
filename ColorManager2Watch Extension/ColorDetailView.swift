@@ -17,28 +17,7 @@ struct ColorDetailView: View {
     }
     
     var body: some View {
-        ScrollView {
-            Color(hex: colorData.colorHex)
-                .frame( height: 100)
-            VStack {
-                VStack {
-                    Text(colorData.colorName)
-                        .bold()
-                    Spacer()
-                    Divider()
-                    Text(colorData.colorHex)
-                    Divider()
-                    Button(action: {
-                        colorModelData.colors[colorIndex].isFav =  !colorModelData.colors[colorIndex].isFav
-                    }, label: {
-                        Image(systemName: colorModelData.colors[colorIndex].isFav ? "heart.fill" : "heart")
-                            .foregroundColor(colorModelData.colors[colorIndex].isFav ? .yellow : .none)
-                            .imageScale(.small)
-                    })
-                }
-                .padding(.all, 30)
-            }
-        }
+        EmptyView()
     }
 }
 

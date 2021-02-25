@@ -12,21 +12,7 @@ struct ColorListRowView: View {
     let color: ColorModel
     
     var body: some View {
-        HStack {
-            RoundedRectangle(cornerRadius: 10, style: .continuous)
-                .fill(Color(hex: color.colorHex))
-                .frame(width: 50, height: 50)
-            
-            Text(color.colorName)
-                .bold()
-            
-            Spacer()
-            
-            if color.isFav {
-                Image(systemName: "star.fill")
-                    .foregroundColor(.yellow)
-            }
-        }
+       EmptyView()
     }
 }
 

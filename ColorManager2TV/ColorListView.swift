@@ -15,15 +15,7 @@ struct ColorListView: View {
         GridItem(.fixed(500))
     ]
     var body: some View {
-        NavigationView {
-            ScrollView {
-                LazyVGrid(columns: columns, spacing: 50) {
-                    ForEach(colorModelData.colors, id: \.id) { color in
-                        ColorBoxView(color: color)
-                    }
-                } .padding(.all)
-            }.navigationTitle("Colors")
-        }
+        EmptyView()
     }
 }
 

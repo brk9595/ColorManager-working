@@ -26,58 +26,7 @@ struct ColorListView: View {
     }
     
     var body: some View {
-        NavigationView {
-            List(selection: $selection) {
-                ForEach(filteredColors, id: \.id) { color in
-                    NavigationLink(destination: ColorDetailView(colorData: color)) {
-                        ColorListRowView(color: color)
-                    }.tag(color)
-                }
-            }.navigationTitle("Colors")
-            .toolbar {
-                #if os(macOS)
-                ToolbarItemGroup() {
-                    Spacer()
-                    
-                    Button(action: {
-                        self.presentAddColorSheet.toggle()
-                    }, label: {
-                        Image(systemName: "plus")
-                    }).sheet(isPresented: $presentAddColorSheet, content: {
-                        AddColorView()
-                            .frame(minWidth: 300, minHeight: 170)
-                    })
-                    
-                    Button(action: {
-                        self.showFav.toggle()
-                        
-                    }, label: {
-                        Image(systemName: showFav ? "star.fill": "star").foregroundColor(.yellow)
-                    })
-                }
-                #elseif os(iOS)
-                ToolbarItemGroup(placement: .navigationBarTrailing) {
-                    #if !os(watchOS)
-                    NavigationLink(destination: AddColorView()) {
-                        Button(action: {
-                            self.showFav.toggle()
-                        }, label: {
-                            Image(systemName: "plus").foregroundColor(.yellow)
-                        })
-                    }
-                    #endif
-                    Button(action: {
-                        self.showFav.toggle()
-                    }, label: {
-                        Image(systemName: showFav ? "star.fill": "star")
-                    }).foregroundColor(.yellow)
-                }
-                #endif
-            }
-            
-            
-            Text("Select a Color")
-        }
+        EmptyView()
     }
 }
 

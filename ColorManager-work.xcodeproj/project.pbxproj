@@ -13,14 +13,14 @@
 		897C838725E6DB01005EEB26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897C838625E6DB01005EEB26 /* ContentView.swift */; };
 		897C839525E6E157005EEB26 /* AddColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897C839425E6E157005EEB26 /* AddColorView.swift */; };
 		897C839D25E6E4EA005EEB26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 897C839C25E6E4EA005EEB26 /* Assets.xcassets */; };
-		897C83A425E6E4EA005EEB26 /* ColorManager2Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 897C83A325E6E4EA005EEB26 /* ColorManager2Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		897C83A425E6E4EA005EEB26 /* ColorManager Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 897C83A325E6E4EA005EEB26 /* ColorManager Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		897C83AB25E6E4EA005EEB26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897C83AA25E6E4EA005EEB26 /* ContentView.swift */; };
 		897C83AD25E6E4EA005EEB26 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897C83AC25E6E4EA005EEB26 /* NotificationController.swift */; };
 		897C83AF25E6E4EA005EEB26 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897C83AE25E6E4EA005EEB26 /* NotificationView.swift */; };
 		897C83B125E6E4EA005EEB26 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897C83B025E6E4EA005EEB26 /* ComplicationController.swift */; };
 		897C83B325E6E4EC005EEB26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 897C83B225E6E4EC005EEB26 /* Assets.xcassets */; };
 		897C83B625E6E4EC005EEB26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 897C83B525E6E4EC005EEB26 /* Preview Assets.xcassets */; };
-		897C83BB25E6E4EC005EEB26 /* ColorManager2Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 897C839A25E6E4E6005EEB26 /* ColorManager2Watch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		897C83BB25E6E4EC005EEB26 /* ColorManager Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 897C839A25E6E4E6005EEB26 /* ColorManager Watch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		897C83CC25E6E57B005EEB26 /* ColorManager2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A269D125E6BBC700378296 /* ColorManager2App.swift */; };
 		897C83D125E6E588005EEB26 /* ColorModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A26A0025E6C10800378296 /* ColorModelData.swift */; };
 		897C83D625E6E58B005EEB26 /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A269F625E6BC6500378296 /* ColorModel.swift */; };
@@ -86,7 +86,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				897C83A425E6E4EA005EEB26 /* ColorManager2Watch Extension.appex in Embed App Extensions */,
+				897C83A425E6E4EA005EEB26 /* ColorManager Watch Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -97,7 +97,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				897C83BB25E6E4EC005EEB26 /* ColorManager2Watch.app in Embed Watch Content */,
+				897C83BB25E6E4EC005EEB26 /* ColorManager Watch.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -109,10 +109,10 @@
 		897C837F25E6D697005EEB26 /* ColorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailView.swift; sourceTree = "<group>"; };
 		897C838625E6DB01005EEB26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		897C839425E6E157005EEB26 /* AddColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddColorView.swift; sourceTree = "<group>"; };
-		897C839A25E6E4E6005EEB26 /* ColorManager2Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorManager2Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		897C839A25E6E4E6005EEB26 /* ColorManager Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ColorManager Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		897C839C25E6E4EA005EEB26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		897C839E25E6E4EA005EEB26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		897C83A325E6E4EA005EEB26 /* ColorManager2Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ColorManager2Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		897C83A325E6E4EA005EEB26 /* ColorManager Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ColorManager Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		897C83A825E6E4EA005EEB26 /* ColorManager2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager2App.swift; sourceTree = "<group>"; };
 		897C83AA25E6E4EA005EEB26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		897C83AC25E6E4EA005EEB26 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
@@ -124,7 +124,7 @@
 		897C83B825E6E4EC005EEB26 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		897C83FD25E6E651005EEB26 /* ColorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailView.swift; sourceTree = "<group>"; };
 		897C840725E6E6BA005EEB26 /* ColorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorListView.swift; sourceTree = "<group>"; };
-		897C841525E6EBB1005EEB26 /* ColorManager2TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorManager2TV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		897C841525E6EBB1005EEB26 /* ColorManager TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ColorManager TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		897C841725E6EBB1005EEB26 /* ColorManager2TVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager2TVApp.swift; sourceTree = "<group>"; };
 		897C841925E6EBB1005EEB26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		897C841B25E6EBB4005EEB26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -270,9 +270,9 @@
 			children = (
 				89A269D825E6BBC900378296 /* ColorManager2.app */,
 				89A269E025E6BBC900378296 /* ColorManager2.app */,
-				897C839A25E6E4E6005EEB26 /* ColorManager2Watch.app */,
-				897C83A325E6E4EA005EEB26 /* ColorManager2Watch Extension.appex */,
-				897C841525E6EBB1005EEB26 /* ColorManager2TV.app */,
+				897C839A25E6E4E6005EEB26 /* ColorManager Watch.app */,
+				897C83A325E6E4EA005EEB26 /* ColorManager Watch Extension.appex */,
+				897C841525E6EBB1005EEB26 /* ColorManager TV.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -336,9 +336,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		897C839925E6E4E6005EEB26 /* ColorManager2Watch */ = {
+		897C839925E6E4E6005EEB26 /* ColorManager Watch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 897C83C025E6E4EC005EEB26 /* Build configuration list for PBXNativeTarget "ColorManager2Watch" */;
+			buildConfigurationList = 897C83C025E6E4EC005EEB26 /* Build configuration list for PBXNativeTarget "ColorManager Watch" */;
 			buildPhases = (
 				897C839825E6E4E6005EEB26 /* Resources */,
 				897C83BF25E6E4EC005EEB26 /* Embed App Extensions */,
@@ -348,14 +348,14 @@
 			dependencies = (
 				897C83A625E6E4EA005EEB26 /* PBXTargetDependency */,
 			);
-			name = ColorManager2Watch;
+			name = "ColorManager Watch";
 			productName = ColorManager2Watch;
-			productReference = 897C839A25E6E4E6005EEB26 /* ColorManager2Watch.app */;
+			productReference = 897C839A25E6E4E6005EEB26 /* ColorManager Watch.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
-		897C83A225E6E4EA005EEB26 /* ColorManager2Watch Extension */ = {
+		897C83A225E6E4EA005EEB26 /* ColorManager Watch Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 897C83BC25E6E4EC005EEB26 /* Build configuration list for PBXNativeTarget "ColorManager2Watch Extension" */;
+			buildConfigurationList = 897C83BC25E6E4EC005EEB26 /* Build configuration list for PBXNativeTarget "ColorManager Watch Extension" */;
 			buildPhases = (
 				897C839F25E6E4EA005EEB26 /* Sources */,
 				897C83A025E6E4EA005EEB26 /* Frameworks */,
@@ -365,14 +365,14 @@
 			);
 			dependencies = (
 			);
-			name = "ColorManager2Watch Extension";
+			name = "ColorManager Watch Extension";
 			productName = "ColorManager2Watch Extension";
-			productReference = 897C83A325E6E4EA005EEB26 /* ColorManager2Watch Extension.appex */;
+			productReference = 897C83A325E6E4EA005EEB26 /* ColorManager Watch Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
-		897C841425E6EBB1005EEB26 /* ColorManager2TV */ = {
+		897C841425E6EBB1005EEB26 /* ColorManager TV */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 897C842125E6EBB4005EEB26 /* Build configuration list for PBXNativeTarget "ColorManager2TV" */;
+			buildConfigurationList = 897C842125E6EBB4005EEB26 /* Build configuration list for PBXNativeTarget "ColorManager TV" */;
 			buildPhases = (
 				897C841125E6EBB1005EEB26 /* Sources */,
 				897C841225E6EBB1005EEB26 /* Frameworks */,
@@ -382,14 +382,14 @@
 			);
 			dependencies = (
 			);
-			name = ColorManager2TV;
+			name = "ColorManager TV";
 			productName = ColorManager2TV;
-			productReference = 897C841525E6EBB1005EEB26 /* ColorManager2TV.app */;
+			productReference = 897C841525E6EBB1005EEB26 /* ColorManager TV.app */;
 			productType = "com.apple.product-type.application";
 		};
-		89A269D725E6BBC900378296 /* ColorManager2 (iOS) */ = {
+		89A269D725E6BBC900378296 /* ColorManager (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 89A269EC25E6BBC900378296 /* Build configuration list for PBXNativeTarget "ColorManager2 (iOS)" */;
+			buildConfigurationList = 89A269EC25E6BBC900378296 /* Build configuration list for PBXNativeTarget "ColorManager (iOS)" */;
 			buildPhases = (
 				89A269D425E6BBC900378296 /* Sources */,
 				89A269D525E6BBC900378296 /* Frameworks */,
@@ -401,14 +401,14 @@
 			dependencies = (
 				897C83BA25E6E4EC005EEB26 /* PBXTargetDependency */,
 			);
-			name = "ColorManager2 (iOS)";
+			name = "ColorManager (iOS)";
 			productName = "ColorManager2 (iOS)";
 			productReference = 89A269D825E6BBC900378296 /* ColorManager2.app */;
 			productType = "com.apple.product-type.application";
 		};
-		89A269DF25E6BBC900378296 /* ColorManager2 (macOS) */ = {
+		89A269DF25E6BBC900378296 /* ColorManager (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 89A269EF25E6BBC900378296 /* Build configuration list for PBXNativeTarget "ColorManager2 (macOS)" */;
+			buildConfigurationList = 89A269EF25E6BBC900378296 /* Build configuration list for PBXNativeTarget "ColorManager (macOS)" */;
 			buildPhases = (
 				89A269DC25E6BBC900378296 /* Sources */,
 				89A269DD25E6BBC900378296 /* Frameworks */,
@@ -418,7 +418,7 @@
 			);
 			dependencies = (
 			);
-			name = "ColorManager2 (macOS)";
+			name = "ColorManager (macOS)";
 			productName = "ColorManager2 (macOS)";
 			productReference = 89A269E025E6BBC900378296 /* ColorManager2.app */;
 			productType = "com.apple.product-type.application";
@@ -449,7 +449,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 89A269CF25E6BBC700378296 /* Build configuration list for PBXProject "ColorManager2" */;
+			buildConfigurationList = 89A269CF25E6BBC700378296 /* Build configuration list for PBXProject "ColorManager-work" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -462,11 +462,11 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				89A269D725E6BBC900378296 /* ColorManager2 (iOS) */,
-				89A269DF25E6BBC900378296 /* ColorManager2 (macOS) */,
-				897C839925E6E4E6005EEB26 /* ColorManager2Watch */,
-				897C83A225E6E4EA005EEB26 /* ColorManager2Watch Extension */,
-				897C841425E6EBB1005EEB26 /* ColorManager2TV */,
+				89A269D725E6BBC900378296 /* ColorManager (iOS) */,
+				89A269DF25E6BBC900378296 /* ColorManager (macOS) */,
+				897C839925E6E4E6005EEB26 /* ColorManager Watch */,
+				897C83A225E6E4EA005EEB26 /* ColorManager Watch Extension */,
+				897C841425E6EBB1005EEB26 /* ColorManager TV */,
 			);
 		};
 /* End PBXProject section */
@@ -594,12 +594,12 @@
 /* Begin PBXTargetDependency section */
 		897C83A625E6E4EA005EEB26 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 897C83A225E6E4EA005EEB26 /* ColorManager2Watch Extension */;
+			target = 897C83A225E6E4EA005EEB26 /* ColorManager Watch Extension */;
 			targetProxy = 897C83A525E6E4EA005EEB26 /* PBXContainerItemProxy */;
 		};
 		897C83BA25E6E4EC005EEB26 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 897C839925E6E4E6005EEB26 /* ColorManager2Watch */;
+			target = 897C839925E6E4E6005EEB26 /* ColorManager Watch */;
 			targetProxy = 897C83B925E6E4EC005EEB26 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -949,7 +949,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		897C83BC25E6E4EC005EEB26 /* Build configuration list for PBXNativeTarget "ColorManager2Watch Extension" */ = {
+		897C83BC25E6E4EC005EEB26 /* Build configuration list for PBXNativeTarget "ColorManager Watch Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				897C83BD25E6E4EC005EEB26 /* Debug */,
@@ -958,7 +958,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		897C83C025E6E4EC005EEB26 /* Build configuration list for PBXNativeTarget "ColorManager2Watch" */ = {
+		897C83C025E6E4EC005EEB26 /* Build configuration list for PBXNativeTarget "ColorManager Watch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				897C83C125E6E4EC005EEB26 /* Debug */,
@@ -967,7 +967,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		897C842125E6EBB4005EEB26 /* Build configuration list for PBXNativeTarget "ColorManager2TV" */ = {
+		897C842125E6EBB4005EEB26 /* Build configuration list for PBXNativeTarget "ColorManager TV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				897C842225E6EBB4005EEB26 /* Debug */,
@@ -976,7 +976,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		89A269CF25E6BBC700378296 /* Build configuration list for PBXProject "ColorManager2" */ = {
+		89A269CF25E6BBC700378296 /* Build configuration list for PBXProject "ColorManager-work" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89A269EA25E6BBC900378296 /* Debug */,
@@ -985,7 +985,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		89A269EC25E6BBC900378296 /* Build configuration list for PBXNativeTarget "ColorManager2 (iOS)" */ = {
+		89A269EC25E6BBC900378296 /* Build configuration list for PBXNativeTarget "ColorManager (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89A269ED25E6BBC900378296 /* Debug */,
@@ -994,7 +994,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		89A269EF25E6BBC900378296 /* Build configuration list for PBXNativeTarget "ColorManager2 (macOS)" */ = {
+		89A269EF25E6BBC900378296 /* Build configuration list for PBXNativeTarget "ColorManager (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89A269F025E6BBC900378296 /* Debug */,
